@@ -155,7 +155,7 @@ export const otpTemplate = (name, otp) => `
                       margin-bottom: 20px;
                       text-align: center;
                     ">
-                        <a href="#"
+                        <div href="#"
                           style="
                         line-height: 24px;
                         border-radius: 0px;
@@ -166,7 +166,7 @@ export const otpTemplate = (name, otp) => `
                         border: 1px solid rgb(173, 54, 93);
                         text-decoration-line: none;
                         color: rgb(173, 54, 93);
-                      " target="_blank"><span class="il">${otp}</span></a>
+                      " target="_blank"><span class="il">${otp}</span></div>
                       </div>
                     </div> 
                       <p>OTP expires after 1 hour.</p>
